@@ -1,5 +1,5 @@
 'use strict';
 
-var bitcore = require('bitcore-lib');
+var paycore = require('paycore-lib');
 
-module.exports = bitcore;
+module.exports = paycore;

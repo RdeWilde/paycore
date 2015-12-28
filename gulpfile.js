@@ -1,5 +1,5 @@
 
 
-var bitcoreTasks = require('bitcore-build');
+var paycoreTasks = require('paycore-build');
 
-bitcoreTasks();
+paycoreTasks();

@@ -1,20 +1,20 @@
 {
-  "name": "bitcore",
+  "name": "paycore",
   "version": "2.0.0",
-  "description": "A platform to build bitcoin and blockchain-based applications.",
+  "description": "A platform to build paycoin and blockchain-based applications.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/** --recursive"
   },
   "bin": {
-    "bitcore": "./bin/bitcore",
-    "bitcored": "./bin/bitcored"
+    "paycore": "./bin/paycore",
+    "paycored": "./bin/paycored"
   },
   "contributors": [
     {
       "name": "Daniel Cousens",
-      "email": "bitcoin@dcousens.com"
+      "email": "paycoin@dcousens.com"
     },
     {
       "name": "Esteban Ordano",
@@ -58,7 +58,7 @@
     }
   ],
   "keywords": [
-    "bitcoin",
+    "paycoin",
     "transaction",
     "address",
     "p2p",
@@ -75,14 +75,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore.git"
+    "url": "https://github.com/bitpay/paycore.git"
   },
   "browser": {
     "request": "browser-request"
   },
   "dependencies": {
-    "bitcore-lib": "^0.13.8",
-    "bitcore-node": "^1.0.0",
+    "paycore-lib": "^0.13.8",
+    "paycore-node": "^1.0.0",
     "insight-api": "^0.3.1",
     "insight-ui": "^0.3.0"
   },
